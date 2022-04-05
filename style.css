@@ -1,4 +1,36 @@
-body{
+body {
   color: grey;
   background: black;
+}
+
+ul {
+  list-style-type: none; /*removes the bullet point format from the list style*/
+  margin: 0; /*removes margin around the elements boarder*/
+  padding: 0; /*removes the padding around the elements boarder*/
+  border: 1px solid #FFF;
+  width: 360px;/*forces a fixed width for the block elements*/
+  background-color: #952E8F; /*warm purple*/
+}
+
+li {
+  border-bottom: 1px solid #FFF;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+
+li a {
+  text-align: center;
+  padding: 0; /*removes the padding around the elements boarder*/
+  display: block; /*the display-block enables the whole element to be clickable*/
+  width: 360px;/*forces a fixed width for the block elements*/
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  background-color: white;
+  color:#555;
 }
