@@ -3,34 +3,35 @@ body {
   background: black;
 }
 
-ul {
+/******************************************************************************
+*******************************nav-bar STYLING*********************************
+* *****************************************************************************/
+
+.nav-bar {
   list-style-type: none; /*removes the bullet point format from the list style*/
-  margin: 0; /*removes margin around the elements boarder*/
+  margin: 0 auto; /*removes margin around the elements boarder*/
   padding: 0; /*removes the padding around the elements boarder*/
-  border: 1px solid #FFF;
+  border: 1px solid #FFF;/*color is white and puts boarder around the Navbar*/
+  border-bottom: none;/*ommits boarder on last list-item*/
   width: 360px;/*forces a fixed width for the block elements*/
   background-color: #952E8F; /*warm purple*/
 }
 
-li {
-  border-bottom: 1px solid #FFF;
+.nav-bar li {
+  border-bottom: 1px solid #FFF;/*puts a border around each list item*/
 }
 
-li:last-child {
-  border-bottom: none;
-}
-
-
-li a {
+.nav-bar li a {
   text-align: center;
   padding: 0; /*removes the padding around the elements boarder*/
   display: block; /*the display-block enables the whole element to be clickable*/
   width: 360px;/*forces a fixed width for the block elements*/
-  text-decoration: none;
+  text-decoration: none;/*removes hyperlink formatting*/
   color: white;
 }
 
-li a:hover {
+
+.nav-bar li a:hover {
   background-color: white;
   color:#555;
 }
