@@ -181,3 +181,56 @@ p {
   line-height: 19px;
 }
 
+.latest-adventure-image {
+  width: 640px;
+  height: 480px;
+  background: green;
+  margin: auto;
+}
+
+.equipment {
+  width: 640px;
+  height: 240px;
+  background: lightgoldenrodyellow;
+  margin: auto;
+}
+
+.travel-bullets li{
+  color: black;
+  text-align: center;
+}
+
+.activity {
+  width: 640px;
+  height: 240px;
+  background: lightcoral;
+  margin: auto;
+}
+
+.recommendations{
+  width: 640px;
+  height: 480px;
+  margin: auto;
+  background: lightskyblue;
+}
+
+.recommendations p{
+  color: black;
+  margin: auto;
+}
+
+.recommendations h2{
+  color: black;
+  margin: auto;
+}
+
+.recommendations h3{
+  color: black;
+  margin: auto;
+}
+
+.recommendations li{
+  color: black;
+  margin: auto;
+  text-align: center;
+}
